@@ -51,8 +51,9 @@ struct MGE_LazyVStack_Intro: View {
         )
     }
 }
-        struct MGE_LazyVStack_Intro_Previews: PreviewProvider {
-            static var previews: some View {
-                MGE_LazyVStack_Intro()
-            }
-        }
+
+struct MGE_LazyVStack_Intro_Previews: PreviewProvider {
+    static var previews: some View {
+        MGE_LazyVStack_Intro()
+    }
+}

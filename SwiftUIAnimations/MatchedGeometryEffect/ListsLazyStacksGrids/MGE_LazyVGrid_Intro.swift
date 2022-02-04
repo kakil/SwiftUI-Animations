@@ -11,7 +11,8 @@ struct MGE_LazyVGrid_Intro: View {
         VStack(spacing: 10.0) {
             TitleText("MatchedGeometryEffect")
             SubtitleText("LazyVGrid")
-            BannerText("Here is an example of using the LazyVGrid.", backColor: .green, textColor: .black)
+            BannerText("Here is an example of using the LazyVGrid.",
+                       backColor: .green, textColor: .black)
             
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
@@ -20,14 +21,14 @@ struct MGE_LazyVGrid_Intro: View {
                             RoundedRectangle(cornerRadius: 15).fill(Color.green)
                             
                             if fruit.id != selectedFruit?.id {
-                                Button(action: {
+                                Button {
                                     withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
                                         selectedFruit = fruit
                                     }
-                                }) {
+                                } label: {
                                     Image(fruit.imageName)
                                         .resizable()
-                                        .aspectRatio(contentMode: .fit)
+                                        .scaledToFit()
                                         .matchedGeometryEffect(id: fruit.id, in: namespace)
                                         .frame(width: 70, height: 56)
                                 }

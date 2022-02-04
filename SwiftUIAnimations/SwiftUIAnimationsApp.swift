@@ -6,7 +6,7 @@ import SwiftUI
 struct SwiftUIAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            AnimatableModifiers_Intro()
+            MGE_Final()
         }
     }
 }

@@ -12,7 +12,8 @@ struct MGE_VStack_Intro: View {
             VStack(spacing: 20) {
                 TitleText("MatchedGeometryEffect")
                 SubtitleText("VStack")
-                BannerText("For this example, I'm using a ScrollView for the entire view so we don't get a clipping of the image going out of the parent container.", backColor: .green, textColor: .black)
+                BannerText("For this example, I'm using a ScrollView for the entire view so we don't get a clipping of the image going out of the parent container.",
+                           backColor: .green, textColor: .black)
                 ForEach(fruits) { fruit in
                     FruitRowView(namespace: namespace,
                                  selectedFruit: $selectedFruit,
@@ -20,13 +21,15 @@ struct MGE_VStack_Intro: View {
                 }
             }
         }
-        .overlay(Group {
-            if let fruitInfo = selectedFruit {
-                MGEFruitDetailFullView(namespace: namespace,
-                                       selectedFruit: $selectedFruit,
-                                       fruit: fruitInfo)
+        .overlay {
+            Group {
+                if let fruitInfo = selectedFruit {
+                    MGEFruitDetailFullView(namespace: namespace,
+                                           selectedFruit: $selectedFruit,
+                                           fruit: fruitInfo)
+                }
             }
-        })
+        }
     }
 }
 
@@ -42,11 +45,10 @@ struct FruitRowView: View {
                     .fill(Color.green)
                     .padding(.horizontal)
                     .matchedGeometryEffect(id: fruit.id, in: namespace)
-                
                 HStack {
                     Image(fruit.imageName)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
                         .padding()
                         .matchedGeometryEffect(id: fruit.imageName, in: namespace)
                         .frame(width: 175, height: 175)
@@ -87,22 +89,25 @@ struct MGEFruitDetailFullView: View {
                 HStack {
                     Image(fruit.imageName)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
                         .matchedGeometryEffect(id: fruit.imageName, in: namespace)
                         .shadow(radius: 5)
                         .padding(40)
-                        .background(Circle()
-                                        .fill(Color.white)
-                                        .opacity(show ? 1 : 0)
-                                        .scaleEffect(show ? 1 : 0.2)
-                                        .animation(.spring(dampingFraction: 0.6)
-                                                    .delay(delayTime), value: show))
+                        .background {
+                            Circle()
+                                .fill(Color.white)
+                                .opacity(show ? 1 : 0)
+                                .scaleEffect(show ? 1 : 0.2)
+                                .animation(.spring(dampingFraction: 0.6)
+                                            .delay(delayTime), value: show)
+                        }
                         .frame(width: 180, height: 170)
                     
                     Text(fruit.name)
                         .font(.title).bold()
                         .foregroundColor(.black)
-                        .matchedGeometryEffect(id: fruit.name+"title", in: namespace, properties: .position)
+                        .matchedGeometryEffect(id: fruit.name+"title",
+                                               in: namespace, properties: .position)
                     Spacer()
                 }
                 

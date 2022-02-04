@@ -6,14 +6,12 @@ struct MGE_List_SeparateDetailView: View {
     @Namespace var namespace
     @State private var selectedFruit: Item?
     private var items = Data.getFruits()
-    
     var body: some View {
         VStack(spacing: 20.0) {
             TitleText("MatchedGeometryEffect")
             SubtitleText("List")
             BannerText("You can extract the detail view into a separate view.",
                        backColor: .green, textColor: .black)
-            
             List(items) { item in
                 HStack {
                     if item.id != selectedFruit?.id {
@@ -26,10 +24,7 @@ struct MGE_List_SeparateDetailView: View {
                         Color.clear
                             .frame(width: 50, height: 36)
                     }
-                    
-                    Text(item.name)
-                        .font(.title)
-                    
+                    Text(item.name).font(.title)
                     Spacer()
                 }
                 .padding()

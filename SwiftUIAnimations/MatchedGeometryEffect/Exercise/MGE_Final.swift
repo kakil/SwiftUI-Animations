@@ -73,9 +73,7 @@ struct MGE_ParksRowView: View {
         }
         .padding(.horizontal, 12)
         .onTapGesture {
-            withAnimation(.easeOut) {
-                selectedPark = park
-            }
+            withAnimation(.easeOut) { selectedPark = park }
         }
     }
 }
@@ -151,20 +149,20 @@ struct MGE_ParkDetailView: View {
                             Text(park.details)
                                 .padding(.bottom)
                             
-                            Button(action: {
+                            Button {
                                 withAnimation(.easeOut) {
                                     selectedPark = nil
                                     show = false
                                 }
-                            }, label: {
+                            } label: {
                                 Image(systemName: "xmark")
                                     .foregroundColor(.white)
                                     .font(.title)
                                     .padding()
                                     .background(Circle())
-                            })
-                                .shadow(radius: 10, y: 15)
-                                .frame(maxWidth: .infinity)
+                            }
+                            .shadow(radius: 10, y: 15)
+                            .frame(maxWidth: .infinity)
                         }
                         .padding(.horizontal)
                         .offset(y: show ? 0 : 20)

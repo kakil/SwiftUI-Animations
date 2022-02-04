@@ -24,16 +24,19 @@ struct MGE_HStack_Intro: View {
             }
             .frame(height: 200)
             Spacer()
-            BannerText("The clipping becomes barely noticeable anymore.", backColor: .green, textColor: .black)
+            BannerText("The clipping becomes barely noticeable anymore.",
+                       backColor: .green, textColor: .black)
         }
-        .overlay( Group {
-            if let fruitInfo = selectedFruit {
-                MGEFruitDetailFullView(namespace: namespace,
-                                       selectedFruit: $selectedFruit,
-                                       fruit: fruitInfo,
-                                       delayTime: 0.5)
+        .overlay {
+            Group {
+                if let fruitInfo = selectedFruit {
+                    MGEFruitDetailFullView(namespace: namespace,
+                                           selectedFruit: $selectedFruit,
+                                           fruit: fruitInfo,
+                                           delayTime: 0.5)
+                }
             }
-        })
+        }
     }
 }
 
@@ -53,7 +56,7 @@ struct FruitColumnView: View {
                     Spacer(minLength: 0)
                     Image(fruit.imageName)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
                         .matchedGeometryEffect(id: fruit.imageName, in: namespace)
                         .padding()
                     Spacer()
