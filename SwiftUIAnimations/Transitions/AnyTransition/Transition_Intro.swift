@@ -22,20 +22,22 @@ struct Transition_Intro: View {
                 BannerText("Use the transition modifier to specify how a view enters and exits the screen.", backColor: Color("DarkAccent2"), textColor: Color("LightShade2"))
                 
                 Button("Change") {
-//                    withAnimation {
-                        change.toggle()
-//                    }
+                    // Second most reliable option:
+                    // withAnimation {
+                    change.toggle()
+                    // }
                 }
                 
                 Spacer()
                 
-//                Group {
+                // Most reliable option:
+                Group {
                     if change {
                         Image("driving")
-                            .transition(AnyTransition.slide.animation(.default))
+                            .transition(AnyTransition.slide)
                     }
-//                }
-//                .animation(.default, value: change)
+                }
+                .animation(.default, value: change)
                 
                 Spacer()
             }
