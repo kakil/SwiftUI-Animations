@@ -10,7 +10,7 @@ struct MGE_AddSectionView: View {
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 12, pinnedViews: .sectionHeaders) {
-                Section(header: MGE_HeaderView()) {
+                Section(header: ParksSectionHeaderView()) {
                     ForEach(parks) { park in
                         ParksRowView(namespace: namespace, selectedPark: $selectedPark, park: park)
                     }
@@ -39,6 +39,10 @@ struct ParksSectionHeaderView: View {
 
 struct MGE_AddSectionView_Previews: PreviewProvider {
     static var previews: some View {
-        MGE_AddSectionView()
+        Group {
+            ParksSectionHeaderView()
+                .previewLayout(.sizeThatFits)
+            MGE_AddSectionView()
+        }
     }
 }
