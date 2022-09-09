@@ -36,7 +36,7 @@ struct ShiftingViews_Clipped_Solution: View {
                 BannerText("Notice what happens when the view is inserted here.", backColor: Color("DarkAccent2"), textColor: Color("LightShade2"))
             }
             .font(.title)
-            .accentColor(Color("Accent2"))
+            .tint(Color("Accent2"))
         }
     }
 }

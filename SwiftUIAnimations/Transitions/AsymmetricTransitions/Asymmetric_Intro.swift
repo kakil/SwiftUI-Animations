@@ -48,7 +48,7 @@ struct Asymmetric_Intro: View {
             }
         }
         .animation(.spring(), value: showHelp)
-        .accentColor(Color("Accent2"))
+        .tint(Color("Accent2"))
         .font(.title)
     }
 }

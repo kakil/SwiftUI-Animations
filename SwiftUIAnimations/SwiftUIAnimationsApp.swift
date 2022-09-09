@@ -6,7 +6,7 @@ import SwiftUI
 struct SwiftUIAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            MGE_Final()
+            ContentTransition_Intro()
         }
     }
 }

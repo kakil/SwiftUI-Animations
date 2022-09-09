@@ -24,7 +24,7 @@ struct Curve_CurveAbove: View {
                 Spacer()
             }
             .font(.title)
-            .accentColor(Color("Accent3"))
+            .tint(Color("Accent3"))
             
             if show {
                 VStack {

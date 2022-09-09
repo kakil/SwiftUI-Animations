@@ -40,7 +40,7 @@ struct ZStack_Solution: View {
             }
         }
         .animation(.default, value: show)
-        .font(.title).accentColor(Color("Accent2"))
+        .font(.title).tint(Color("Accent2"))
     }
 }
 

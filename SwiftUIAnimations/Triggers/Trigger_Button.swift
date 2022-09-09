@@ -58,7 +58,7 @@ struct Trigger_Button: View {
                 .background(Circle().fill(Color.green).shadow(radius: 8, x: 4, y: 4))
             } // Apply these modifiers to every view inside the Group
             .padding(.trailing, 20)
-            .accentColor(.white)
+            .tint(.white)
             .animation(.default, value: showButtons)
         }
         .font(.title)

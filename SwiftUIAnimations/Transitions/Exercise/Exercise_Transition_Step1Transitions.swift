@@ -57,7 +57,7 @@ struct Exercise_Transition_Step1Transitions: View {
             .padding(.bottom, 75)
         }
         .font(.largeTitle)
-        .accentColor(Color("Accent3"))
+        .tint(Color("Accent3"))
         .ignoresSafeArea()
     }
 }

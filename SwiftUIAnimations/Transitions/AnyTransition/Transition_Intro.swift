@@ -42,7 +42,7 @@ struct Transition_Intro: View {
                 Spacer()
             }
             .font(.title)
-            .accentColor(Color("Accent2"))
+            .tint(Color("Accent2"))
         }
     }
 }

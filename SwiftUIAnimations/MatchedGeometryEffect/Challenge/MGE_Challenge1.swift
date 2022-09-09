@@ -170,7 +170,7 @@ struct ParksListView: View {
         .overlay(
                 MGE_ParkDetailView(namespace: namespace, selectedPark: $selectedPark)
         )
-        .accentColor(Color("Accent6"))
+        .tint(Color("Accent6"))
         .background(RoundedCorner(cornerRadius: 40, corners: .topRight)
                         .fill(quaternaryColor)
                         .matchedGeometryEffect(id: "parksBackground", in: namespace)

@@ -93,7 +93,7 @@ struct Exercise_Transition_Step2SecondButton: View {
             .padding(.bottom, 75)
         }
         .font(.largeTitle)
-        .accentColor(Color("Accent3"))
+        .tint(Color("Accent3"))
         .ignoresSafeArea()
     }
 }

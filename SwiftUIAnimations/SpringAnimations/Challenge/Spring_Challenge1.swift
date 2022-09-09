@@ -93,7 +93,7 @@ struct Spring_Challenge1: View {
                 }
                 .animation(.spring(response: 0.4, dampingFraction: 0.5), value: step)
                 .font(.largeTitle)
-                .accentColor(Color("LightShade2"))
+                .tint(Color("LightShade2"))
                 
                 Button(action: {}) {
                     HStack {
@@ -103,7 +103,7 @@ struct Spring_Challenge1: View {
                     .padding(.horizontal)
                     .padding()
                     .background(Capsule().fill(Color("Accent2")))
-                    .accentColor(Color("LightShade2"))
+                    .foregroundColor(Color("LightShade2"))
                     .opacity(step == 3 ? 1 : 0)
                     .animation(.none, value: step) // I don't want to animate the opacity ☝️
                     .scaleEffect(step == 3 ? 1 : 0.01)

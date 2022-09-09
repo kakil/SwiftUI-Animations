@@ -53,8 +53,6 @@
 		4D3BE7522384F97000424A90 /* Repeating_RepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BE7512384F97000424A90 /* Repeating_RepeatCount.swift */; };
 		4D3BE754238529E200424A90 /* Repeating_RepeatCount_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BE753238529E200424A90 /* Repeating_RepeatCount_AutoReverses.swift */; };
 		4D3BE7562385360900424A90 /* Repeating_RepeatForever_AutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3BE7552385360900424A90 /* Repeating_RepeatForever_AutoReverses.swift */; };
-		4D42896C2363E10E000E1814 /* Animate_TextSize_ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42896B2363E10E000E1814 /* Animate_TextSize_ScaleEffect.swift */; };
-		4D42896E2363E4CE000E1814 /* Animate_TextSize_ScaleEffect_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42896D2363E4CE000E1814 /* Animate_TextSize_ScaleEffect_Solution.swift */; };
 		4D4927532389B06F00DB75E3 /* Exercise_SlidingSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4927522389B06F00DB75E3 /* Exercise_SlidingSheets.swift */; };
 		4D4927552389B25500DB75E3 /* Animate_ZIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4927542389B25500DB75E3 /* Animate_ZIndex.swift */; };
 		4D54C9A123E9301100EF1682 /* Curve_CheckYourUnderstanding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54C9A023E9301100EF1682 /* Curve_CheckYourUnderstanding2.swift */; };
@@ -92,6 +90,8 @@
 		4DA2B681238AEB6B00D97A30 /* Exercise_AnimationOptions_Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2B680238AEB6B00D97A30 /* Exercise_AnimationOptions_Final.swift */; };
 		4DA2B684238AEC2300D97A30 /* SequenceAnimation_SOQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2B683238AEC2300D97A30 /* SequenceAnimation_SOQuestion.swift */; };
 		4DA2B686238AFAEE00D97A30 /* Speed_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2B685238AFAEE00D97A30 /* Speed_Intro.swift */; };
+		4DA5097528CBCA4C0044556B /* ContentTransition_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5097428CBCA4C0044556B /* ContentTransition_Intro.swift */; };
+		4DA5097828CBD06F0044556B /* Animate_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5097728CBD06F0044556B /* Animate_Grid.swift */; };
 		4DABC0E72364EF88003934AF /* Duration_Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABC0E62364EF88003934AF /* Duration_Parameter.swift */; };
 		4DABC0EA2364F4CE003934AF /* Exercise1_EndResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABC0E92364F4CE003934AF /* Exercise1_EndResult.swift */; };
 		4DABC0EC236501F5003934AF /* Exercise1_FadeInWithOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABC0EB236501F5003934AF /* Exercise1_FadeInWithOpacity.swift */; };
@@ -330,8 +330,6 @@
 		4D3BE7512384F97000424A90 /* Repeating_RepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount.swift; sourceTree = "<group>"; };
 		4D3BE753238529E200424A90 /* Repeating_RepeatCount_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatCount_AutoReverses.swift; sourceTree = "<group>"; };
 		4D3BE7552385360900424A90 /* Repeating_RepeatForever_AutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating_RepeatForever_AutoReverses.swift; sourceTree = "<group>"; };
-		4D42896B2363E10E000E1814 /* Animate_TextSize_ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_TextSize_ScaleEffect.swift; sourceTree = "<group>"; };
-		4D42896D2363E4CE000E1814 /* Animate_TextSize_ScaleEffect_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_TextSize_ScaleEffect_Solution.swift; sourceTree = "<group>"; };
 		4D4927522389B06F00DB75E3 /* Exercise_SlidingSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_SlidingSheets.swift; sourceTree = "<group>"; };
 		4D4927542389B25500DB75E3 /* Animate_ZIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_ZIndex.swift; sourceTree = "<group>"; };
 		4D54C9A023E9301100EF1682 /* Curve_CheckYourUnderstanding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve_CheckYourUnderstanding2.swift; sourceTree = "<group>"; };
@@ -369,6 +367,8 @@
 		4DA2B680238AEB6B00D97A30 /* Exercise_AnimationOptions_Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_AnimationOptions_Final.swift; sourceTree = "<group>"; };
 		4DA2B683238AEC2300D97A30 /* SequenceAnimation_SOQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimation_SOQuestion.swift; sourceTree = "<group>"; };
 		4DA2B685238AFAEE00D97A30 /* Speed_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed_Intro.swift; sourceTree = "<group>"; };
+		4DA5097428CBCA4C0044556B /* ContentTransition_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTransition_Intro.swift; sourceTree = "<group>"; };
+		4DA5097728CBD06F0044556B /* Animate_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Grid.swift; sourceTree = "<group>"; };
 		4DABC0E62364EF88003934AF /* Duration_Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration_Parameter.swift; sourceTree = "<group>"; };
 		4DABC0E92364F4CE003934AF /* Exercise1_EndResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_EndResult.swift; sourceTree = "<group>"; };
 		4DABC0EB236501F5003934AF /* Exercise1_FadeInWithOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_FadeInWithOpacity.swift; sourceTree = "<group>"; };
@@ -681,6 +681,7 @@
 				59A8FE8623AC38F40036E4F3 /* CombiningTransitions */,
 				59DA70BC23AC010B00CBE605 /* WorkingWithTransitions */,
 				59DA70B723AB334F00CBE605 /* AsymmetricTransitions */,
+				4DA5097928CBDEB20044556B /* ContentTransitions */,
 				593B666423AE9E06000316F3 /* Exercise */,
 				593B666323AE9DFC000316F3 /* CheckYourUnderstanding */,
 				593B666223AE9DF0000316F3 /* Challenge */,
@@ -763,9 +764,8 @@
 				4D7F538E236631D50064AD52 /* Animate_ScaleEffect_Anchors.swift */,
 				4D3352592342AAE500897685 /* Animate_RoundedCorners.swift */,
 				4D017A22234A5D1F00383730 /* Animate_TextSize.swift */,
-				4D42896B2363E10E000E1814 /* Animate_TextSize_ScaleEffect.swift */,
-				4D42896D2363E4CE000E1814 /* Animate_TextSize_ScaleEffect_Solution.swift */,
 				4D3352612342B4D600897685 /* Animate_Trim.swift */,
+				4DA5097728CBD06F0044556B /* Animate_Grid.swift */,
 			);
 			path = AnimatableProperties;
 			sourceTree = "<group>";
@@ -890,6 +890,14 @@
 				4DA2B685238AFAEE00D97A30 /* Speed_Intro.swift */,
 			);
 			path = SpeedMultiplier;
+			sourceTree = "<group>";
+		};
+		4DA5097928CBDEB20044556B /* ContentTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				4DA5097428CBCA4C0044556B /* ContentTransition_Intro.swift */,
+			);
+			path = ContentTransitions;
 			sourceTree = "<group>";
 		};
 		4DABC0E82364F49A003934AF /* Exercise */ = {
@@ -1609,6 +1617,7 @@
 				590E16042530B23500BA7D05 /* MGE_LikeTransitions.swift in Sources */,
 				59F9ECCE24C7E9B300BC06E6 /* MGE_Text_Problem.swift in Sources */,
 				4D67E43E2378AD9900E5FD5F /* Popup_AddDragGesture.swift in Sources */,
+				4DA5097828CBD06F0044556B /* Animate_Grid.swift in Sources */,
 				59F61AB224EA1AB500219278 /* MGE_ClipShape.swift in Sources */,
 				4D017A23234A5D1F00383730 /* Animate_TextSize.swift in Sources */,
 				598647DB238EECB80092ED1B /* Exercise_AnimationOptions_AnimateSymbol.swift in Sources */,
@@ -1672,7 +1681,6 @@
 				4D017A2B234A90D000383730 /* GettingStarted_CheckUnderstanding_WhichCurve.swift in Sources */,
 				4DE2957F2389FF26002D4389 /* Scope_MoreSequencing.swift in Sources */,
 				4DB64AEF236CE67100B74D21 /* Trigger_OnAppear.swift in Sources */,
-				4D42896C2363E10E000E1814 /* Animate_TextSize_ScaleEffect.swift in Sources */,
 				59F61AB424EA1D3F00219278 /* MGE_Text_Solution.swift in Sources */,
 				5943A81525315187003C2F2F /* MGE_RowView.swift in Sources */,
 				4D3352542342A76000897685 /* Animate_Opacity.swift in Sources */,
@@ -1780,6 +1788,7 @@
 				4D3BE7562385360900424A90 /* Repeating_RepeatForever_AutoReverses.swift in Sources */,
 				590E160A2530B87400BA7D05 /* Asymmetric_TwoAnimations2.swift in Sources */,
 				4D67E4362377284500E5FD5F /* Trigger_OnDisappear.swift in Sources */,
+				4DA5097528CBCA4C0044556B /* ContentTransition_Intro.swift in Sources */,
 				4D1F9E8E23DE1F03009A6B48 /* Curve_ExtractWelcomeBackView.swift in Sources */,
 				4DB02AFF233AF72500B00DBB /* BookCustomViews.swift in Sources */,
 				4D017A29234A8C3500383730 /* GettingStarted_CheckUnderstanding.swift in Sources */,
@@ -1841,7 +1850,6 @@
 				59EDB4C123B2D26500DC9E7D /* Exercise_Transition_Step2SecondButton.swift in Sources */,
 				59F61AB024EA12FF00219278 /* MGE_TextLocation.swift in Sources */,
 				59A8FE8823AC390D0036E4F3 /* Combining_Intro.swift in Sources */,
-				4D42896E2363E4CE000E1814 /* Animate_TextSize_ScaleEffect_Solution.swift in Sources */,
 				4D67E43A23775BC700E5FD5F /* Popup_AddThePopup.swift in Sources */,
 				4D8128F5237271320088DAD6 /* Trigger_SegmentedControl.swift in Sources */,
 				59A5F6B623C98C1300CDA2F7 /* ShiftingViews_Clipped_Solution.swift in Sources */,
@@ -1912,7 +1920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1967,7 +1975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1986,7 +1994,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2007,7 +2015,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAnimations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

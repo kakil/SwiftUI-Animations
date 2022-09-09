@@ -32,7 +32,7 @@ struct Spring_Intro: View {
                     Image(systemName: show ? "person.2.fill" : "person.2")
                         .foregroundColor(Color("Gold"))
                         .font(.largeTitle)
-                }).accentColor(Color("Accent"))
+                }).tint(Color("Accent"))
             }
         }
     }

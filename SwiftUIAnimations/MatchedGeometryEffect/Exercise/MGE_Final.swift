@@ -174,7 +174,7 @@ struct MGE_ParkDetailView: View {
             .onAppear {
                 show.toggle()
             }
-            .accentColor(Color("Gold"))
+            .tint(Color("Gold"))
         }
     }
 }

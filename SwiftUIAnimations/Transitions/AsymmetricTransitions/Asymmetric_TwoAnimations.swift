@@ -52,7 +52,7 @@ struct Asymmetric_TwoAnimations: View {
                 .zIndex(1)
             }
         }
-        .accentColor(Color("Accent2"))
+        .tint(Color("Accent2"))
         .font(.title)
     }
 }

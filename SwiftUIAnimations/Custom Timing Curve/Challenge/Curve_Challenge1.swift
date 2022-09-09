@@ -68,7 +68,7 @@ struct Curve_Challenge1: View {
                     
                     Spacer()
                 }
-                .accentColor(Color("Tertiary4"))
+                .tint(Color("Tertiary4"))
                 .padding(.horizontal)
                 
                 Spacer()

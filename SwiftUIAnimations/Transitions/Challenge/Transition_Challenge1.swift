@@ -22,7 +22,7 @@ struct Transition_Challenge1: View {
                                 .padding(10)
                         }
                         .background(Capsule().stroke(Color("Gold"), lineWidth: 1))
-                        .accentColor(Color("Gold"))
+                        .tint(Color("Gold"))
                         
                         Spacer()
                         

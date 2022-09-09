@@ -46,7 +46,7 @@ struct Curve_CurveBelowThenAbove: View {
                 Spacer()
             }
             .font(.title)
-            .accentColor(Color("Accent3"))
+            .tint(Color("Accent3"))
         }
     }
 }

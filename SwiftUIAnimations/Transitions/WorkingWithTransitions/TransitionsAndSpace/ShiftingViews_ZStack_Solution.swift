@@ -23,7 +23,7 @@ struct ShiftingViews_ZStack_Solution: View {
                            backColor: Color("DarkAccent2"), textColor: Color("LightShade2"))
             }
             .font(.title)
-            .accentColor(Color("Accent2"))
+            .tint(Color("Accent2"))
             
             if change {
                 Image("collaboration")

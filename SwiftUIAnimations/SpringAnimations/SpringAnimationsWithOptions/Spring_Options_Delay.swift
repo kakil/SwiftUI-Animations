@@ -25,7 +25,7 @@ struct Spring_Options_Delay: View {
                     show.toggle()
                 }
                 .font(.title)
-                .accentColor(Color("Accent"))
+                .tint(Color("Accent"))
                 
                 Spacer()
                 

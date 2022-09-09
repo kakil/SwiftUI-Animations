@@ -76,7 +76,7 @@ struct Interactive_Popup: View {
             }
             .opacity(showPopup ? 1 : 0)
         }
-        .accentColor(Color("Accent"))
+        .tint(Color("Accent"))
     }
 }
 

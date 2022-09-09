@@ -36,7 +36,7 @@ struct AnimationOptions_Challenge2: View {
                         Image(systemName: "arrow.right.circle.fill")
                             .font(.system(size: 80))
                     }
-                    .accentColor(Color("Accent"))
+                    .tint(Color("Accent"))
                     .overlay(
                         Circle()
                             .stroke(Color("Gold"), lineWidth: 5)

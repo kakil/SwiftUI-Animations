@@ -48,7 +48,7 @@ struct MGE_ParentView: View {
             
             Spacer()
         }
-        .accentColor(.blue)
+        .tint(.blue)
     }
 }
 
@@ -78,7 +78,7 @@ struct MGE_DetailView: View {
                 
                 Spacer()
             }
-            .accentColor(.blue)
+            .tint(.blue)
         }
     }
 }

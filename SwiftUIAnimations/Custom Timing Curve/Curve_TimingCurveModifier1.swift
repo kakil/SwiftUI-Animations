@@ -36,7 +36,7 @@ struct Curve_TimingCurveModifier1: View {
                 }
             }
             .font(.title)
-            .accentColor(Color("Accent3"))
+            .tint(Color("Accent3"))
         }
     }
 }

@@ -1,10 +1,4 @@
-//
-//  Animate_TextSize.swift
-//  SwiftUIAnimations
-//
-//  Created by Mark Moeykens on 10/6/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 
@@ -15,7 +9,7 @@ struct Animate_TextSize: View {
         VStack(spacing: 20) {
             TitleText("Animatable Properties")
             SubtitleText("Text Size")
-            BannerText("Take a look at what happens when you try to animate the font size of a text view.",
+            BannerText("You can also animate text size.",
                        backColor: .blue, textColor: .white)
             
             Button("Change") {
@@ -25,9 +19,8 @@ struct Animate_TextSize: View {
             Spacer()
             
             Text("Hello!")
-                .font(.system(size: change ? 80 : 20))
+                .font(.system(size: change ? 150 : 20))
                 .animation(.easeInOut, value: change)
-                .border(Color.blue)
             
             Spacer()
         }

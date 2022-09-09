@@ -20,7 +20,7 @@ struct MGE_FullScreenCover: View {
                                     .matchedGeometryEffect(id: "transition", in: namespace))
             })
         }
-        .accentColor(.blue)
+        .tint(.blue)
         .fullScreenCover(isPresented: $showDetailView) {
             MGE_FullScreenCoverDetailView(namespace: namespace)
             //                .transition(.move(edge: .bottom))
@@ -59,7 +59,7 @@ struct MGE_FullScreenCoverDetailView: View {
                         .padding()
                 })
             }
-            .accentColor(.blue)
+            .tint(.blue)
         }
     }
 }

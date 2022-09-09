@@ -48,7 +48,7 @@ struct Exercise_Spring_AnimateFadeIns: View {
                 }
                 Button(action: {}) {
                     Image(systemName: "chevron.right")
-                        .accentColor(Color("LightShade2"))
+                        .foregroundColor(Color("LightShade2"))
                         .padding(25)
                         .background(Circle().fill(Color("Accent2")).shadow(radius: 10))
                         .opacity(start ? 1 : 0)

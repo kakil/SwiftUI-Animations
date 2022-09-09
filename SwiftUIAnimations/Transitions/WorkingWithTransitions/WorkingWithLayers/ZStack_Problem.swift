@@ -38,7 +38,7 @@ struct ZStack_Problem: View {
             }
         }
         .animation(.default, value: show)
-        .font(.title).accentColor(Color("Accent2"))
+        .font(.title).tint(Color("Accent2"))
     }
 }
 

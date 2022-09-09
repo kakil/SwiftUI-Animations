@@ -41,7 +41,7 @@ struct Combining_MoveAndScale: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
             }
             .font(.title)
-            .accentColor(Color("Accent2"))
+            .tint(Color("Accent2"))
         }
     }
 }

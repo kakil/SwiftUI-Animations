@@ -36,7 +36,7 @@ struct Combining_Intro: View {
             }
             .animation(.default, value: change)
             .font(.title)
-            .accentColor(Color("Accent2"))
+            .tint(Color("Accent2"))
         }
     }
 }

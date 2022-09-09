@@ -33,7 +33,7 @@ struct Curve_ReadingCurves1: View {
                 }
             }
             .font(.title)
-            .accentColor(Color("Accent3"))
+            .tint(Color("Accent3"))
         }
     }
 }
